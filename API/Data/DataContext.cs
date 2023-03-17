@@ -10,6 +10,6 @@ namespace API.data
 
         }
 
-        public DbSet<AppUser> MyProperty { get; set; }
+        public DbSet<AppUser> Users { get; set; }
     }
 }
