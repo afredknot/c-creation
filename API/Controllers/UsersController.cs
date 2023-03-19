@@ -2,13 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using API.data;
+using API.Data;
 using API.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+    [Authorize]
     public class UsersController : BaseApiController
     {
         private readonly DataContext _context;
@@ -24,7 +26,7 @@ namespace API.Controllers
 
             return users;
         }
-
+        
         [HttpGet("{id}")]
         public async Task<ActionResult<AppUser>> GetUser(int id)
         {

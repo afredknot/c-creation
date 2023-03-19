@@ -61,3 +61,8 @@
 /Users/danielnelson/Desktop/udemy builds/datingapp/API/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/danielnelson/Desktop/udemy builds/datingapp/API/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/danielnelson/Desktop/udemy builds/datingapp/API/obj/Debug/net7.0/API.csproj.CopyComplete
+/Users/danielnelson/Desktop/udemy builds/datingapp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/danielnelson/Desktop/udemy builds/datingapp/API/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/danielnelson/Desktop/udemy builds/datingapp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/danielnelson/Desktop/udemy builds/datingapp/API/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/danielnelson/Desktop/udemy builds/datingapp/API/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
