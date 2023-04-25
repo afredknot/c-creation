@@ -54,11 +54,6 @@ namespace API.Controllers
             };
        }
 
-    private Task<bool> UserExists(string username)
-    {
-      throw new NotImplementedException();
-    }
-
     [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
